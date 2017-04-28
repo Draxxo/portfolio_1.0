@@ -1,0 +1,198 @@
+body {
+	top : 0px;
+	overflow-x:hidden;
+}
+
+/* -- SECTION -- */
+section {
+	margin-top:15px;	
+}
+
+/* -- NAV -- */
+.container-fluid .collapse ul li a {
+	font-size:18px;
+}
+
+.container-fluid .collapse ul li a:hover, 
+.container-fluid .navbar-header a:hover {
+	color:#06F;
+}
+
+/* -- PROFIL -- */
+.profil {
+	width:100%;
+}
+
+.profil .imgProfil {
+	width:100%;	
+	background-color:#DDD;
+}
+
+.profil .imgProfil img {
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+.profil .contenuProfil {
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-right:auto;
+	margin-left:auto;
+	width:80%;
+}
+
+.profil .contenuProfil .texte {
+	float:left;
+	width:60%;
+	text-align:justify;
+}
+
+.profil .contenuProfil .miniDiapo {
+	float:left;
+	width:40%;
+}
+
+.profil .contenuProfil h1 {
+	padding-top:15px;
+	margin-bottom:20px;
+	color:#06F;
+}
+
+.profil .contenuProfil img {
+	width:100%;	
+}
+
+.profil .contenuProfil #slideshow { 
+	padding:10px;
+    position: relative; 
+}
+
+.profil .contenuProfil #slideshow > div { 
+	padding:10px;
+    position: absolute; 
+}
+
+/* -- COMPETENCES -- */
+.competence {
+	float:none;
+	width:100%;
+	background-color:#DDD;
+	margin-top:-40px;
+	margin-bottom:-20px;
+	padding-bottom:100px;
+}
+
+.competence h1 {
+	text-align:center;
+	padding-top:60px;
+	margin-bottom:40px;
+	color:#06F;
+}
+
+.competence table {
+	display:inline;
+	margin:auto;
+}
+
+.competence table th,
+.competence table td {
+	border-bottom:2px solid #06F;	
+}
+
+.competence table td, .competence table th {
+	font-size:20px;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+.competence table td:hover {
+	background-color:#06F;	
+	color:#FFF;
+}
+
+/* -- EXPERIENCE -- */
+.experience {
+	width:100%;
+	margin-bottom:50px;
+}
+
+.experience h1 {
+	text-align:center;
+	margin-top:25px;
+	margin-bottom:25px;
+	color:#06F;
+}
+
+.experience p {
+	text-align:justify;
+}
+
+/* -- CONTACT -- */
+.contact {
+	width:100%;
+	margin-top:-20px;
+	padding-bottom:50px;
+	background-color:#DDD;
+}
+
+.contact h1 {
+	padding-top:60px;
+	text-align:center;
+	color:#06F;
+}
+
+.contact h3 {
+	text-align:center;
+	padding-top:10px;
+}
+
+.contact form {
+	padding-top:30px;	
+}
+
+.contact .vert {
+	color:#3C0;
+}
+
+.contact .rouge {
+	color:#F00;	
+}
+
+.contact .form-group{
+	padding-left:15px;
+	width:100%;
+}
+
+/* -- FOOTER -- */
+footer {
+	width:100%;
+	height:140px; 
+	background-color:#EEE;
+	text-align:center;
+	border-top:1px solid #e7e7e7;
+}
+
+footer img {
+	width : 50px;
+	height : 50px;
+}
+
+footer a img:hover {
+	opacity: 0.4;	
+}
+
+footer h4 {
+	padding-top:10px;
+}
+
+footer a {
+	color:#000;
+}
+
+footer a:hover {
+	text-decoration:none;
+	color:#06F;	
+}
